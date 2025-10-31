@@ -1,0 +1,458 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Balloons.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Balloons.ico"
+IDR_BALLOOTYPE          ICON    DISCARDABLE     "res\\BalloonsDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About Balloons...",          ID_APP_ABOUT
+    END
+END
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "&Game"
+    BEGIN
+        MENUITEM "&New Game",                   ID_FILE_NEW
+        MENUITEM "&Close Game",                 ID_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "&Exit",                       ID_APP_EXIT
+    END
+    POPUP "&Credit"
+    BEGIN
+        MENUITEM "&Help",                       ID_HELP
+        MENUITEM "&About",                      ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 120
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "  Balloons"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,142,45,21,20
+    DEFPUSHBUTTON   "OK",IDOK,188,101,40,12,WS_GROUP
+    CONTROL         171,IDC_STATIC,"Static",SS_BITMAP | SS_SUNKEN | 
+                    WS_BORDER,7,7,82,45,WS_EX_CLIENTEDGE
+    LTEXT           "Balloons version 1.0",IDC_STATIC,58,58,82,8
+    LTEXT           "Copyright (c)  Syed Shameem Ejaz  Artirons 2004",
+                    IDC_STATIC,58,69,164,8
+    LTEXT           "Gulshan Iqbal Karachi. Pakistan",IDC_STATIC,58,78,111,8
+    LTEXT           "Cell: 0333 2236585",IDC_STATIC,58,96,98,8
+    LTEXT           "Email: sse1@hotmail.com",IDC_STATIC,58,87,97,8
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 191, 161
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW | WS_EX_CLIENTEDGE
+CAPTION "  Instructions"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,157,140,20,14
+    LTEXT           "You can move boy with Up and Down keys.",IDC_STATIC,22,
+                    25,150,10
+    LTEXT           "To shoot the arrow you have to press the left Ctrl key, arrow will be released as you release the Ctrl key.",
+                    IDC_STATIC,22,37,150,27
+    LTEXT           "Boy can be moved with bow stretched (Ctrl key pressed & using Arrow key) it wouldn't be released unless you release the Ctrl key.",
+                    IDC_STATIC,22,62,150,26
+    LTEXT           "Left Shift key will load the arrow.",IDC_STATIC,22,95,
+                    150,8
+    GROUPBOX        "",IDC_STATIC,15,11,162,123
+    LTEXT           "Minimizing the game window pauses the game while running.",
+                    IDC_STATIC,22,107,150,19
+END
+
+IDD_DIALOG1 DIALOGEX 0, 0, 201, 73
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "   Balloons"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Yes",IDOK,69,55,31,11
+    PUSHBUTTON      "No",IDCANCEL,100,55,31,11
+    CTEXT           "C'on man, Game is running. Do u really want to quit",
+                    IDC_STATIC,12,19,177,21,SS_CENTERIMAGE | WS_BORDER,
+                    WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    GROUPBOX        "C'on man",IDC_STATIC,7,7,187,42
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Developed by: Syed Shameem Ejaz\0"
+            VALUE "CompanyName", "Artirons\0"
+            VALUE "FileDescription", "Balloons MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Balloons\0"
+            VALUE "LegalCopyright", "Copyright (C) 2004\0"
+            VALUE "LegalTrademarks", "Artirons - Artificial Neurons\0"
+            VALUE "OriginalFilename", "Balloons.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Balloons Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 113
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 184
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 154
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 194
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 66
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\Robin_1.bmp"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "res\\Robin_2.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "res\\Robin_3.bmp"
+IDB_BITMAP4             BITMAP  DISCARDABLE     "res\\robin_4.bmp"
+IDB_BITMAP5             BITMAP  DISCARDABLE     "res\\robin_5.bmp"
+IDB_BITMAP6             BITMAP  DISCARDABLE     "res\\robin_6.bmp"
+IDB_BITMAP7             BITMAP  DISCARDABLE     "res\\Arrow.bmp"
+IDB_BITMAP8             BITMAP  DISCARDABLE     "res\\B_In_10.bmp"
+IDB_BITMAP9             BITMAP  DISCARDABLE     "res\\B_In_1.bmp"
+IDB_BITMAP10            BITMAP  DISCARDABLE     "res\\B_In_2.bmp"
+IDB_BITMAP11            BITMAP  DISCARDABLE     "res\\B_In_3.bmp"
+IDB_BITMAP12            BITMAP  DISCARDABLE     "res\\B_In_4.bmp"
+IDB_BITMAP13            BITMAP  DISCARDABLE     "res\\B_In_5.bmp"
+IDB_BITMAP14            BITMAP  DISCARDABLE     "res\\B_In_6.bmp"
+IDB_BITMAP15            BITMAP  DISCARDABLE     "res\\B_In_7.bmp"
+IDB_BITMAP16            BITMAP  DISCARDABLE     "res\\B_In_8.bmp"
+IDB_BITMAP17            BITMAP  DISCARDABLE     "res\\B_In_9.bmp"
+IDB_BITMAP18            BITMAP  DISCARDABLE     "res\\B_Df_10.bmp"
+IDB_BITMAP19            BITMAP  DISCARDABLE     "res\\B_Df_1.bmp"
+IDB_BITMAP20            BITMAP  DISCARDABLE     "res\\B_Df_2.bmp"
+IDB_BITMAP21            BITMAP  DISCARDABLE     "res\\B_Df_3.bmp"
+IDB_BITMAP22            BITMAP  DISCARDABLE     "res\\B_Df_4.bmp"
+IDB_BITMAP23            BITMAP  DISCARDABLE     "res\\B_Df_5.bmp"
+IDB_BITMAP24            BITMAP  DISCARDABLE     "res\\B_Df_6.bmp"
+IDB_BITMAP25            BITMAP  DISCARDABLE     "res\\B_Df_7.bmp"
+IDB_BITMAP26            BITMAP  DISCARDABLE     "res\\B_Df_8.bmp"
+IDB_BITMAP27            BITMAP  DISCARDABLE     "res\\B_Df_9.bmp"
+IDB_BITMAP29            BITMAP  DISCARDABLE     "res\\BA_Game_BackGround.bmp"
+IDB_BITMAP30            BITMAP  DISCARDABLE     "res\\robin_1_mask.bmp"
+IDB_BITMAP31            BITMAP  DISCARDABLE     "res\\robin_2_mask.bmp"
+IDB_BITMAP32            BITMAP  DISCARDABLE     "res\\robin_3_mask.bmp"
+IDB_BITMAP33            BITMAP  DISCARDABLE     "res\\robin_4_mask.bmp"
+IDB_BITMAP34            BITMAP  DISCARDABLE     "res\\robin_5_mask.bmp"
+IDB_BITMAP35            BITMAP  DISCARDABLE     "res\\robin_6_mask.bmp"
+IDB_BITMAP36            BITMAP  DISCARDABLE     "res\\Arrow_Mask.bmp"
+IDB_BITMAP37            BITMAP  DISCARDABLE     "res\\B_In_Mask.bmp"
+IDB_BITMAP38            BITMAP  DISCARDABLE     "res\\B_Df_Mask.bmp"
+IDB_BITMAP39            BITMAP  DISCARDABLE     "res\\bonus-1.bmp"
+IDB_BITMAP40            BITMAP  DISCARDABLE     "res\\Artirons2.bmp"
+IDB_BITMAP41            BITMAP  DISCARDABLE     "res\\Artirons.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "Balloons\n\nBalloo\n\n\nBalloons.Document\nBalloo Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Balloons"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "\nNew Game"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+    ID_HELP                 "\nHelp"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Balloons.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

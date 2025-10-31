@@ -1,0 +1,113 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Balloons - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/Balloons.res" /d "NDEBUG" /d "_AFXDLL" "E:\Cplus-Projects\Balloons\Balloons.rc"" 
+Creating temporary file "C:\DOCUME~1\SYEDSH~1\LOCALS~1\Temp\RSP6.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Balloons.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Cplus-Projects\Balloons\Balloons.cpp"
+"E:\Cplus-Projects\Balloons\BalloonsDoc.cpp"
+"E:\Cplus-Projects\Balloons\BalloonsView.cpp"
+"E:\Cplus-Projects\Balloons\ExitGame.cpp"
+"E:\Cplus-Projects\Balloons\Inst.cpp"
+"E:\Cplus-Projects\Balloons\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\SYEDSH~1\LOCALS~1\Temp\RSP6.tmp" 
+Creating temporary file "C:\DOCUME~1\SYEDSH~1\LOCALS~1\Temp\RSP7.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Balloons.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Cplus-Projects\Balloons\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\SYEDSH~1\LOCALS~1\Temp\RSP7.tmp" 
+Creating temporary file "C:\DOCUME~1\SYEDSH~1\LOCALS~1\Temp\RSP8.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Balloons.pdb" /machine:I386 /out:"Release/Balloons.exe" 
+".\Release\Balloons.obj"
+".\Release\BalloonsDoc.obj"
+".\Release\BalloonsView.obj"
+".\Release\ExitGame.obj"
+".\Release\Inst.obj"
+".\Release\MainFrm.obj"
+".\Release\StdAfx.obj"
+".\Release\Balloons.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\SYEDSH~1\LOCALS~1\Temp\RSP8.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Balloons.cpp
+BalloonsDoc.cpp
+BalloonsView.cpp
+ExitGame.cpp
+Inst.cpp
+MainFrm.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Balloons.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Balloons - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/Balloons.res" /d "_DEBUG" /d "_AFXDLL" "E:\Cplus-Projects\Balloons\Balloons.rc"" 
+Creating temporary file "C:\DOCUME~1\SYEDSH~1\LOCALS~1\Temp\RSPA.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Balloons.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Cplus-Projects\Balloons\Balloons.cpp"
+"E:\Cplus-Projects\Balloons\BalloonsDoc.cpp"
+"E:\Cplus-Projects\Balloons\BalloonsView.cpp"
+"E:\Cplus-Projects\Balloons\ExitGame.cpp"
+"E:\Cplus-Projects\Balloons\Inst.cpp"
+"E:\Cplus-Projects\Balloons\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\SYEDSH~1\LOCALS~1\Temp\RSPA.tmp" 
+Creating temporary file "C:\DOCUME~1\SYEDSH~1\LOCALS~1\Temp\RSPB.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Balloons.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Cplus-Projects\Balloons\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\SYEDSH~1\LOCALS~1\Temp\RSPB.tmp" 
+Creating temporary file "C:\DOCUME~1\SYEDSH~1\LOCALS~1\Temp\RSPC.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Balloons.pdb" /debug /machine:I386 /out:"Debug/Balloons.exe" /pdbtype:sept 
+".\Debug\Balloons.obj"
+".\Debug\BalloonsDoc.obj"
+".\Debug\BalloonsView.obj"
+".\Debug\ExitGame.obj"
+".\Debug\Inst.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Balloons.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\SYEDSH~1\LOCALS~1\Temp\RSPC.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Balloons.cpp
+BalloonsDoc.cpp
+BalloonsView.cpp
+ExitGame.cpp
+Inst.cpp
+MainFrm.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Balloons.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

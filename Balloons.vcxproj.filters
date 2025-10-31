@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{34790f6a-4cc6-45da-b680-89c128e2615b}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2c8a3eaa-8896-42c7-a028-ed8f824271a3}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{6141b39b-150b-4362-b8e6-d31ebb0c219d}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Balloons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BalloonsDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BalloonsView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Inst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Balloons.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Balloons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BalloonsDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BalloonsView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Arrow.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Arrow_Mask.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Artirons.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Artirons2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\B_Df_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\B_Df_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\B_Df_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\B_Df_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\B_Df_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\B_Df_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\B_Df_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\B_Df_7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\B_Df_8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\B_Df_9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\B_Df_Mask.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\B_In_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\B_In_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\B_In_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\B_In_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\B_In_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\B_In_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\B_In_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\B_In_7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\B_In_8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\B_In_9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\B_In_Mask.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\BA_Game_BackGround.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Balloons.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\BalloonsDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bonus-1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Robin_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\robin_1_mask.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Robin_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\robin_2_mask.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Robin_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\robin_3_mask.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\robin_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\robin_4_mask.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\robin_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\robin_5_mask.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\robin_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\robin_6_mask.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\Balloons.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
